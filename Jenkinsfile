@@ -8,7 +8,7 @@ pipeline{
         }
         stage('test'){
             steps{
-                echo "world"
+                echo '033 [31mHellooo033 [0m'
             }
         }
          stage ('run other builds'){
