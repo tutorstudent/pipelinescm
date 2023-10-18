@@ -15,7 +15,7 @@ pipeline{
             steps{
                 build 'edh - ci'
                 build 'edh-develop'
-             }
+            }
         }
     }
 }
