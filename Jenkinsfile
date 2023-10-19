@@ -1,7 +1,7 @@
 pipeline{
     agent 'any'
-    ansiColor('xterm') {
-    // some block
+    options{
+    ansiColor('xterm') 
     }
     stages{
         stage('build'){
@@ -11,7 +11,7 @@ pipeline{
         }
         stage('test'){
             steps{
-                echo '\033 [33mHellooo033 [0m'
+               echo '\033[34mHello\033[0m \033[33mcolorful\033[0m \033[35mworld!\033[0m'
             }
         }
          stage ('run other builds'){
