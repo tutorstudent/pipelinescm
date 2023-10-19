@@ -8,8 +8,7 @@ pipeline{
         stage('build'){
             steps{
                 echo "hi"
-                echo "deepthi"
-                echo "$deepthi"
+                echo "$name"
             }
         }
         stage('test'){
