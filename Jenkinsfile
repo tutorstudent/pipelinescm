@@ -7,6 +7,7 @@ pipeline{
         stage('build'){
             steps{
                 echo "hi"
+                echo "deepthi"
             }
         }
         stage('test'){
