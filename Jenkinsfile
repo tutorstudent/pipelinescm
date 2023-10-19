@@ -1,3 +1,4 @@
+name = "deepthi"
 pipeline{
     agent 'any'
     options{
@@ -8,6 +9,7 @@ pipeline{
             steps{
                 echo "hi"
                 echo "deepthi"
+                echo "$deepthi"
             }
         }
         stage('test'){
